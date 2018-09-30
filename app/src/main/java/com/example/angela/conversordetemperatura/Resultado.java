@@ -25,6 +25,6 @@ public class Resultado extends AppCompatActivity{
         Bundle bundle = intent.getExtras();
 
         String temp = (String) bundle.getString("result");
-        resultadoTemp.setText(temp);
+        resultadoTemp.setText(temp+" Fahrenheit");
     }
 }
